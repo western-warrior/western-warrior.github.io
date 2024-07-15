@@ -6,16 +6,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Adi's Portfolio | Home</title>
   <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="script.js"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@200..900&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet" />
   <link href="style.css" rel="stylesheet" type="text/css" />
-  <script src="script.js"></script>
 </head>
-<body>
+<body id="body">
   <div class="text-center mt-6 text-6xl animate__animated animate__backInDown">I'm Aditya.</div>
-  <nav class="flex justify-center animate__animated animate__backInDown animate__delay-1s invisible md:visible">
+  <nav class="flex justify-center animate__animated animate__backInDown animate__delay-1s invisible md:visible" id="nav">
     <div class="border-blue-900 border-2 rounded-3xl align-middle w-fit mt-6">
       <ul class="block">
         <li class="inline align-middle"><button class="duration-500 cursor-default h-10 hover:bg-blue-900 hover:text-white rounded-3xl px-8">Home</button></li>
@@ -25,6 +26,16 @@
       </ul>
     </div>
   </nav>
+  <button class="duration-500 cursor-default h-10 hover:bg-blue-900 hover:text-white rounded-3xl px-8 visible md:invisible" id="menu">Menu</button>
+  <nav id="mobile-nav">
+    <ul class="block">
+      <li class="inline align-middle"><a></a></li>
+      <li class="inline align-middle"><a></a></li>
+      <li class="inline align-middle"><a></a></li>
+      <li class="inline align-middle"><a></a></li>
+    </ul>
+  </nav>
+
   <div class="" id="scrollText1"></div>
 </body>
 
