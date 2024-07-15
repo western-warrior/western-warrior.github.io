@@ -1,0 +1,12 @@
+body {
+    font-family: "Unbounded", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    background-color: #000435;
+    color: white;
+}
+
+button {
+  animation-duration: 300ms;
+}
