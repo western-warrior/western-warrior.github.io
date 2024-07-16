@@ -1,5 +1,20 @@
+var menuOn = false;
+
 document.getElementById("menu").addEventListener("click", function () {
-    mob = document.getElementById("mobile-nav");
-    mob.classList.remove("invisible");
-    console.log("yes");
+    var mob = document.getElementById("mobile-nav");
+    var icon = document.getElementById("menuIcon");
+    if (menuOn) {
+        icon.classList.add("fa-bars");
+        icon.classList.remove("fa-cross");
+        mob.classList.add("invisible");
+        mob.classList.remove("animate__animated animate__slideInLeft");
+        console.log("no");
+    } else {
+        icon.classList.remove("fa-bars");
+        icon.classList.add("fa-cross");
+        mob.classList.remove("invisible");
+        mob.classList.add("animate__animated animate__slideInLeft")
+        console.log("yes");
+    }
+    menuOn = !menuOn;
 });
