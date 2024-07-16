@@ -1,1 +1,0 @@
-# western-warrior.github.io
