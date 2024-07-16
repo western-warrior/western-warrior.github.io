@@ -1,6 +1,6 @@
 var menuOn = false;
 
-document.getElementById("menu").addEventListener("click", function () {
+document.getElementById("menuIcon").addEventListener("click", function () {
     var mob = document.getElementById("mobileNav");
     var icon = document.getElementById("menuIcon");
     if (menuOn) {
