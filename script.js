@@ -1,7 +1,7 @@
 var menuOn = false;
 
 document.getElementById("menu").addEventListener("click", function () {
-    var mob = document.getElementById("mobile-nav");
+    var mob = document.getElementById("mobileNav");
     var icon = document.getElementById("menuIcon");
     if (menuOn) {
         icon.classList.add("fa-bars");
