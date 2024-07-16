@@ -11,3 +11,7 @@ body {
 button {
   animation-duration: 300ms;
 }
+
+nav {
+    background-color: #000435
+}
